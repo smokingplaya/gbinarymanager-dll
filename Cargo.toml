@@ -1,0 +1,12 @@
+[package]
+name = "gbinarymanager"
+version = "0.1.1"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = {version = "*", features = ["gmcl"], default-features = false}
+steamlocate = "0.*"
