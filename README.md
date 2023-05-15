@@ -32,3 +32,6 @@ require("gbinarymanager")
 ```lua
 gbinarymanager.SaveBinary(name, content)
 ```
+## Credits
+
+[WilliamVenner aka billy](https://github.com/WilliamVenner) for [gmod-rs](https://github.com/WilliamVenner/gmod-rs/)
