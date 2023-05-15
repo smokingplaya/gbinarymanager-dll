@@ -13,3 +13,17 @@ This is my first experience writing code in Rust.
 6. Open build.bat
 
 I might have forgotten something, so in case of errors you can contact me at discord smokingplaya#4961
+
+# Lua
+
+To make the module work, you need to create a file in **/autorun/client** with any name and with the following content
+
+```lua
+require("gbinarymanager")
+```
+
+## What features does the module add?
+
+```lua
+gbinarymanager.SaveBinary(name, content)
+```
