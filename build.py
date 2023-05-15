@@ -1,6 +1,3 @@
-# Маленькая утилита, которая запускает компиляюцию Rust-библиотеки, а затем копирует готовый DLL-файл в папку builded_dlls
-# Увы я не кодер на питоне, и это мой первый опыт написания скриптов на нём.
-
 import os
 import shutil
 
@@ -30,12 +27,7 @@ def copy():
         shutil.move(oldPath, folder)
 
 if __name__ == "__main__":
-    print("check for folders")
     createDir("builded_dlls")
     createDir("builded_dlls/backups")
-    print("start build...")
-    print("enter the build flag, or just press enter")
     startBuild(input())
-    print("try to copy...")
     copy()
-    print("script end")
