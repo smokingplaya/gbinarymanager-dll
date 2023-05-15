@@ -3,6 +3,11 @@ The dll file that lets you create and save files in the garrysmod/lua/bin folder
 
 This is my first experience writing code in Rust.
 
+# May I download this module?
+Yep, sure. Click on link below.
+
+[Latest release 0.1.0](https://github.com/smokingplaya/gbinarymanager-dll/releases/tag/0.1.0)
+
 # How to build
 
 1. Download rustc
