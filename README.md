@@ -31,6 +31,12 @@ require("gbinarymanager")
 
 ```lua
 gbinarymanager.SaveBinary(name, content)
+gbinarymanager.RemoveBinary(name)
+
+gbinarymanager.SaveLua(name, content)
+gbinarymanager.RemoveLua(name)
+
+gbinarymanager.HasBinary(name)
 ```
 ## Credits
 
