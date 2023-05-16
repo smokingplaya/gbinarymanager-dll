@@ -6,7 +6,7 @@ This is my first experience writing code in Rust.
 # May I download this module?
 Yep, sure. Click on link below.
 
-[Latest release 0.1.0](https://github.com/smokingplaya/gbinarymanager-dll/releases/tag/0.1.0)
+[Latest release 0.2.0](https://github.com/smokingplaya/gbinarymanager-dll/releases/tag/0.2.0)
 
 # How to build
 
